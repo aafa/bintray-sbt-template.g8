@@ -1,10 +1,10 @@
 name := "$name$"
 
-organization := "$company$"
+organization := "$package$"
 
 version := "0.1.0-SNAPSHOT"
 
-scalaVersion := "$scalaVersion$"
+scalaVersion := "2.11.5"
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.2.1" % "test" withSources() withJavadoc(),
